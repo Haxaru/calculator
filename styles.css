@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "digital-normal";
+  src: url("./misc/digital.woff2") format("woff2"),
+    url("./misc/digital.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "digital-normal";
+}
+
+html {
+  background: linear-gradient(#0a224e, #23074d);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  align-items: center;
+  background-color: rgba(35, 7, 77, 0.8);
+  border-radius: 5px;
+  border: 2px inset rgba(3, 169, 244, 0.5);
+  display: flex;
+  flex-direction: column;
+  padding: 35px 10px 35px 10px;
+}
+
+.display {
+  align-items: end;
+  background-color: rgba(3, 169, 244, 0.1);
+  border-radius: 2px;
+  border: 1.5px solid #03a9f4;
+  box-shadow: 0 0 4px rgba(3, 169, 244, 0.7);
+  color: rgb(255, 0, 128);
+  display: flex;
+  font-size: 30px;
+  justify-content: end;
+  margin-bottom: 20px;
+  min-height: 40px;
+  text-shadow: 0 0 10px rgb(255, 72, 151);
+  width: 180px;
+}
+
+button {
+  background: radial-gradient(#ff6f00, #ff872c);
+  border-radius: 2px;
+  border: none;
+  box-shadow: 0 0 5px rgba(255, 136, 0, 0.8);
+  color: #aa00ff;
+  cursor: pointer;
+  font-size: 15px;
+  height: 25px;
+  margin: 7px 3px 7px 3px;
+  transition: all 0.15s ease-in-out;
+  width: 35px;
+}
+
+button:hover {
+  background: radial-gradient(circle, #ff6f00, #ff66b2);
+  box-shadow: 0 0 5px rgba(255, 102, 178, 0.7);
+  transform: scale(1.05);
+}
