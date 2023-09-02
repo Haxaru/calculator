@@ -7,3 +7,5 @@ I didn't understand why I needed to include the parameters in the called functio
 A weakness I realized I had is understanding parameters and arguments, along with simplifying my code and keeping it minimal.
 
 Something I am really struggling with right now is handling multiple operators.
+
+quick update: I was still not able to solve the multiple operators bug, but I will leave it for another day.

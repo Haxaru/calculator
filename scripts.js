@@ -22,6 +22,7 @@ function multiply(a, b) {
   return a * b;
 }
 function divide(a, b) {
+  if (b === 0) return "insert funny joke here";
   return a / b;
 }
 function clear() {
@@ -55,6 +56,8 @@ function operate(num1, operator, num2) {
       clear();
       display.textContent = divide(num1, num2);
       break;
+    default:
+      return;
   }
 }
 
