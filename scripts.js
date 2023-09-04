@@ -42,8 +42,6 @@ function operate(num1, operator, num2) {
   }
 }
 
-function updateDisplay() {}
-
 numbers.forEach((button) =>
   button.addEventListener("click", (e) => {
     currentNum.textContent += e.target.textContent;
